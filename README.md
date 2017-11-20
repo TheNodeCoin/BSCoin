@@ -21,13 +21,13 @@ OR, You may download them from:
 
 Clone Github.com Repo:
 
-Prep: #
+## Prep: #
 In terminal after dependencies are installed, you can `cd` (change directory) to an existing folder, or create another one with `sudo mkdir folder_name`. Change directory to that folder `cd folder_name`.
 
-Copy & Paste in terminal #
+## Copy & Paste in terminal
 $`git clone https://github.com/TheNodeCoin/BSCoin.git && cd BSCoin && make`
 
-Starting BS #
+## Starting BS #
 After the coin is 100% built, `cd build/release/src`.
 You can choose to run the BS Coin in the current terminal `./bsCoin`.  However, closing the terminal will shutdown the daemon.  Alternatively, you can run BS in screen `sudo screen ./bsCoin`.  This allows you to detach [ctrl+a d] the screen leaning it running while closing the terminal.  To reattach the screen simply open a terminal [ctrl+alt t] and type `sudo sreen -r`.
 
