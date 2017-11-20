@@ -10,9 +10,9 @@ Dependencies to build and use: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boo
 
 Copy & Paste.  Reference -   [ctrl+shift c]- copy in terminal    [ctrl+shift v]- paste in terminal
 
-*`sudo apt update`
-*`sudo apt upgrade`
-*`sudo apt install git screen gcc g++ build-essential cmake libboost-all-dev`
+$`sudo apt update`
+$`sudo apt upgrade`
+$`sudo apt install git screen gcc g++ build-essential cmake libboost-all-dev`
 
 OR, You may download them from:
 
@@ -27,8 +27,8 @@ Prep: #
 In terminal after dependencies are installed, you can `cd` (change directory) to an existing folder, or create another one with `sudo mkdir folder_name`. Change directory to that folder `cd folder_name`.
 
 Copy & Paste in terminal #
-*`git clone https://github.com/TheNodeCoin/BSCoin.git`
-*`cd BSCoin && make`
+$`git clone https://github.com/TheNodeCoin/BSCoin.git`
+$`cd BSCoin && make`
 
 Starting BS #
 After the coin is 100% built, `cd build/release/src`.
