@@ -10,9 +10,7 @@ Dependencies to build and use: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boo
 
 Copy & Paste.  Reference -   [ctrl+shift c]- copy in terminal    [ctrl+shift v]- paste in terminal
 
-$`sudo apt update`
-$`sudo apt upgrade`
-$`sudo apt install git screen gcc g++ build-essential cmake libboost-all-dev`
+$`sudo apt update && sudo apt upgrade && sudo apt install git screen gcc g++ build-essential cmake libboost-all-dev`
 
 OR, You may download them from:
 
